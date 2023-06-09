@@ -282,6 +282,25 @@ export default {
 							},
 						},
 						{
+							enabled: this.overlays.has('launch.launch-datafor'),
+							id: 'tool-datafor',
+							name: 'Visualizer',
+							icon: ['fac', 'tool-datafor'],
+							color: '#00d0ff',
+							click: () => {
+								router
+									.push({
+										name: 'perspective',
+										params: { perspective: 'opened.perspective' },
+									})
+									.catch(() => {});
+								eventBus.$emitWhenAvailable(
+									'mantle-home-command',
+									this.overlays.get('launch.launch-datafor')
+								);
+							},
+						},
+						{
 							enabled: this.overlays.has(
 								'startup.repositorySynchronizer.toolsmenu.repositorySynchronizer',
 							),

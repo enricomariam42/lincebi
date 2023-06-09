@@ -204,6 +204,22 @@ export default {
 					},
 				},
 				{
+					target: '[data-v-step="new-tool-saiku"]',
+					header: { title: this.$t('tour.steps.sidebarToolSaiku.title') },
+					content: this.$t('tour.steps.sidebarToolSaiku.content'),
+					before: async () => {
+						router.push({ name: 'new' }).catch(() => {});
+					},
+				},
+				{
+					target: '[data-v-step="new-tool-datafor"]',
+					header: { title: this.$t('tour.steps.sidebarToolDatafor.title') },
+					content: this.$t('tour.steps.sidebarToolDatafor.content'),
+					before: async () => {
+						router.push({ name: 'new' }).catch(() => {});
+					},
+				},
+				{
 					target: '[data-v-step="new-tool-jpivot"]',
 					header: { title: this.$t('tour.steps.sidebarToolJpivot.title') },
 					content: this.$t('tour.steps.sidebarToolJpivot.content'),

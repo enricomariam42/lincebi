@@ -295,6 +295,14 @@
         "title": "JPivot",
         "content": "JPivot is Pentaho's built-in OLAP viewer."
       },
+      "sidebarToolSaiku": {
+        "title": "Saiku",
+        "content": "Saiku Analytics is Meteorite BI's OLAP viewer for multidimensional analysis."
+      },
+      "sidebarToolDatafor": {
+        "title": "Visualizer",
+        "content": "Visualizer is Datafor's data visualization, analysis and dashboarding tool."
+      },
       "sidebarOpened": {
         "title": "Opened",
         "content": "Here you can see the currently open files."

@@ -75,6 +75,7 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons/faXmark';
 
 import { faFileAdhoc } from '@lincebi/frontend-common/src/fontawesome/faFileAdhoc';
 import { faFileCsv } from '@lincebi/frontend-common/src/fontawesome/faFileCsv';
+import { faFileDatafor } from '@lincebi/frontend-common/src/fontawesome/faFileDatafor';
 import { faFileOther } from '@lincebi/frontend-common/src/fontawesome/faFileOther';
 import { faFilePdf } from '@lincebi/frontend-common/src/fontawesome/faFilePdf';
 import { faFilePrpt } from '@lincebi/frontend-common/src/fontawesome/faFilePrpt';
@@ -87,6 +88,7 @@ import { faFileUrl } from '@lincebi/frontend-common/src/fontawesome/faFileUrl';
 import { faFileWcdf } from '@lincebi/frontend-common/src/fontawesome/faFileWcdf';
 import { faFileXjpivot } from '@lincebi/frontend-common/src/fontawesome/faFileXjpivot';
 import { faToolCde } from '@lincebi/frontend-common/src/fontawesome/faToolCde';
+import { faToolDatafor } from '@lincebi/frontend-common/src/fontawesome/faToolDatafor';
 import { faToolEmbed } from '@lincebi/frontend-common/src/fontawesome/faToolEmbed';
 import { faToolJpivot } from '@lincebi/frontend-common/src/fontawesome/faToolJpivot';
 import { faToolOther } from '@lincebi/frontend-common/src/fontawesome/faToolOther';
@@ -137,6 +139,7 @@ library.add(
 	faFile,
 	faFileAdhoc,
 	faFileCsv,
+	faFileDatafor,
 	faFileLines,
 	faFileOther,
 	faFilePdf,
@@ -184,6 +187,7 @@ library.add(
 	faSuitcaseMedical,
 	faTable,
 	faToolCde,
+	faToolDatafor,
 	faToolEmbed,
 	faToolJpivot,
 	faToolOther,
